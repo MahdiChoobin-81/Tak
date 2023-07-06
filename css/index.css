@@ -1,0 +1,174 @@
+@media screen and (max-width: 900px) {
+    .changeCardsHeight {
+        max-height: 200px;
+    }
+
+    .changeRowHeight {
+        max-height: 200px;
+    }
+
+    .changeRadioButtonsHeight {
+        height: 25px;
+    }
+
+}
+@media screen and (min-width: 900px){
+    .changeCardsHeight {
+        height: 360px;
+        /*background-color: #0fabc6;*/
+    }
+}
+@media screen and (min-width: 900px) {
+    .changeRadioButtonsHeight {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .changeCardsHeight {
+        max-height: 150px;
+    }
+
+    .changeRowHeight {
+        max-height: 150px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .changeSideBarHeight {
+        height: 255px;
+    }
+
+    .changeCardsHeight {
+        max-height: 500px;
+    }
+
+    .changeSideBarWidth {
+        width: 25%;
+    }
+
+    .changeMainContentWidth {
+        width: 70%;
+    }
+
+    .MobileFontSizeH4 {
+        font-size: 3vw;
+    }
+
+    .sidebar-radioButton {
+        font-size: 1.9vw;
+        font-weight: 900;
+    }
+
+    .sidebar-options {
+        font-size: 2vw;
+    }
+    .Rerror{
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .changeSideBarWidth {
+        width: 16.5%;
+    }
+
+    .changeMainContentWidth {
+        width: 83%;
+    }
+
+    .MobileFontSizeH4 {
+        font-size: 1.7vw;
+    }
+
+    .sidebar-radioButton {
+        font-size: 1.1vw;
+        font-weight: 900;
+    }
+
+    .sidebar-options {
+        font-size: 1.3vw;
+    }
+    .Rerror{
+        font-size: 0.9vw;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .changeSideBarPadding {
+        padding-right: 8px;
+        background-color: red;
+    }
+
+    input::-webkit-input-placeholder {
+        font-size: 8px;
+        line-height: 8;
+        font-weight: 700;
+    }
+
+    .login-header {
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 668px) {
+    .changeSideBarPadding {
+        padding-right: 16px;
+        background-color: blue;
+    }
+
+    input::-webkit-input-placeholder {
+        font-size: 1vw;
+        line-height: 8;
+        font-weight: 700;
+    }
+    .login-header {
+        font-size: 1.3vw;
+    }
+}
+
+.register-button {
+    /*width: 280px;*/
+    height: 3.2vw;
+    font-size: 1.2vw;
+    background-color: #FFD700;
+    font-weight: bold;
+    color: #008000;
+
+}
+
+@media screen and (min-width: 1600px) {
+    .my_slider_height {
+        height: 750px;
+
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .my_slider_height {
+        /*height: calc(300px);*/
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .my_slider_height {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .my_slider_height {
+        height: 280px;
+    }
+
+    input::-webkit-input-placeholder {
+        font-size: 6px;
+        line-height: 8;
+        font-weight: 700;
+    }
+    .register-button{
+        font-size: 6px;
+        height: 15px;
+    }
+}
